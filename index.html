@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jsDelivr Mirror Site</title>
+  <style>
+    /* 整体页面基础样式 */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* 头部样式 */
+    header {
+      background: linear-gradient(to right, #FF512F, #DD2476);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    /* 内容区域样式 */
+    .main-content {
+      flex: 1;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+      background-color: white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    h2 {
+      color: #FF512F;
+      border-bottom: 2px solid #FF512F;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .main-content a {
+      color: #FF512F;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    /* 底部样式 */
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: linear-gradient(to right, #FF512F, #DD2476);
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 页面头部 -->
+  <header>
+    <h1>jsDelivr Mirror Site</h1>
+  </header>
+
+  <!-- 主体内容 -->
+  <div class="main-content">
+    <h2>项目简介</h2>
+    <p>本项目是一个基于Vercel的jsDelivr镜像站，开源地址 <a href="https://github.com/wangyang0210/">jsDelivr-mirror-site</a> </p>
+
+    <h2>使用方法</h2>
+    <p>使用前，您需要先了解jsDelivr原本的语法规则，可前往 <a href="https://www.jsdelivr.com">jsDelivr官网</a>查看。</p>
+    <p>您需要将jsDelivr的CDN地址替换为镜像站地址，即可实现镜像加速。</p>
+
+    <h2>自部署相关</h2>
+    <p>点击下方按钮快速部署</p>
+    <p>
+      <a
+        href="https://vercel.com/new/clone?repository-url=https://github.com/wangyang0210/jsDelivr-mirror-site&project-name=jsDelivr-mirror-site&repository-name=jsDelivr-mirror-site">
+        <img src="https://vercel.com/button" alt="Deploy with Vercel">
+      </a>
+    </p>
+  </div>
+
+  <!-- 页面底部 -->
+  <footer>
+    <p>Copyright © 2024 <a href="https://oyo.cool">wangyang0210</a>.</p>
+  </footer>
+</body>
+
+</html>
