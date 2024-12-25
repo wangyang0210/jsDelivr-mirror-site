@@ -4,7 +4,7 @@ This is a jsDelivr mirror site based on Vercel reverse proxy.
 
 ## Usage
 Click this button for quick deployment: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/wangyang0210/jsDelivr-mirror-site&project-name=jsDelivr-mirror-site&repository-name=jsDelivr-mirror-site)
-**Note**: The default domain of Vercel has been blocked. Please bind your own domain!
+
 
 
 ## License
